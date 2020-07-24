@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+}
+
+.mainHeader {
+    font-family:'Tangerine', 'sans serif';
+    font-size: 70px;
+    margin: 0.2em;
+    color: crimson;
+}
+
+.subHeader {
+    font-family:'Tangerine', 'sans serif';
+    font-size: xx-large;
+    margin: 1em 0 0.25em;
+    color: lightseagreen;
+}
+
+.colorType {
+  color: lightseagreen;
+  font-family:'Tangerine', 'sans serif';
+  font-size: xx-large;
+}
+
+.drawCanvas {
+  color: lightseagreen;
+  font-family:'Tangerine', 'sans serif';
+  font-size: xx-large;
+}
+
+.choice {
+  font-family: 'orbitron', 'sans serif';
+  font-size: large;
+  color: lightseagreen;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+table, tr, td {
+    border: 1px solid rgb(78, 78, 78);
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    color: rgb(0,0,0);
+}
+
+input[type=submit] {
+    margin-right: 6em;
+}
+
+  input[type=color] {
+    stroke-linecap: round;
+}
+
+@media -webkit-full-screen {
+
+    .mainHeader {
+      font-size: 1.1rem;
+      display: inline;
+    }
+  
+    .subHeader {
+      font-size: 1.1rem;
+      display: inline;
+    } 
+
+    .colorType {
+      font-size: 1.1rem;
+      display: inline;  
+    }
+  
+    .drawCanvas {
+      font-size: 1.1rem;
+      display: inline;
+      color: lightseagreen;
+    }
+
+    table {
+      margin: 10px auto;
+    }
+  
+    tr {
+      height: 30px;
+    }
+  
+    td {
+      width: 30px;
+    }
+}
